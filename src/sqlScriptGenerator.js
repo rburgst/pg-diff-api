@@ -663,9 +663,9 @@ var helper = {
 			case "A": //ARRAY
 				return `'{${value.join()}}'`;
 			case "R": //RANGE
+			case "E": //ENUM
 				return `'${value}'`;
 			case "B": //BOOL
-			case "E": //ENUM
 			case "G": //GEOMETRIC
 			case "I": //NETWORK ADDRESS
 			case "N": //NUMERIC
